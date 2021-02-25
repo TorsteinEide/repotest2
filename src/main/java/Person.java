@@ -1,10 +1,15 @@
 public class Person {
+
+    /**
+     *
+     */
     private String name;
     private String age;
 
-    public Person(String name)
+
+    public Person()
     {
-        this.name = name;
+        this.name = "mr worldwide";
     }
 
     public String getName()
@@ -17,8 +22,12 @@ public class Person {
         return this.age;
     }
 
-    public void setAge(int age)
-    {
+    public void setAge(int age) {
         this.age = age;
+    }
+
+    public void getQuote()
+    {
+        System.out.println(getName());
     }
 }
