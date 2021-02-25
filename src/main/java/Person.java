@@ -4,7 +4,7 @@ public class Person {
      *
      */
     private String name;
-    private String age;
+    private int age;
 
 
     public Person()
@@ -17,13 +17,14 @@ public class Person {
         return this.name;
     }
 
-    public String getAge()
+    public int getAge()
     {
         return this.age;
     }
 
-    public void setAge(int age) {
+    public int setAge(int age) {
         this.age = age;
+        return this.age;
     }
 
     public void getQuote()
